@@ -1,0 +1,22 @@
+<!-- res/values-night/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.RoamTO_Sanskar" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/blue_200</item>
+        <item name="colorOnPrimary">@android:color/black</item>
+
+        <!-- Background and surface -->
+
+        <item name="colorSurface">@color/surface_dark</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary_dark</item>
+        <item name="android:textColorSecondary">@color/text_secondary_dark</item>
+        <item name="android:textColorHint">@color/text_hint_dark</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+
+        <!-- Optional: Button and snackbar text contrast -->
+        <item name="colorOnBackground">@color/text_primary_dark</item>
+        <item name="colorOnSurface">@color/text_primary_dark</item>
+    </style>
+</resources>
